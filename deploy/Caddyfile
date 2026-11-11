@@ -1,0 +1,15 @@
+{$TUNEBRIDGE_DOMAIN} {
+	encode zstd gzip
+
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		-Server
+	}
+
+	reverse_proxy tunebridge:8787
+
+	log {
+		output stdout
+		format console
+	}
+}

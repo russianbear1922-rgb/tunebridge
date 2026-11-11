@@ -1,0 +1,42 @@
+{
+  "packageId": "__PACKAGE__",
+  "host": "__DOMAIN__",
+  "name": "TuneBridge — перенос плейлистов",
+  "launcherName": "TuneBridge",
+  "display": "standalone",
+  "themeColor": "#08090F",
+  "themeColorDark": "#08090F",
+  "navigationColor": "#08090F",
+  "navigationColorDark": "#08090F",
+  "navigationDividerColor": "#08090F",
+  "navigationDividerColorDark": "#08090F",
+  "backgroundColor": "#08090F",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "__BASE_URL__/static/img/icon-512.png",
+  "maskableIconUrl": "__BASE_URL__/static/img/icon-maskable-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "__VERSION_NAME__",
+  "appVersionCode": __VERSION_CODE__,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "__BASE_URL__/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "__BASE_URL__/",
+  "minSdkVersion": 21,
+  "orientation": "portrait",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": []
+}

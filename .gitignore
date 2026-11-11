@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+backups/
+.env
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Android TWA: ключ подписи, пароли и собранные артефакты — только локально.
+deploy/twa/build/
+*.keystore
+*.jks
+*.apk
+*.aab
+
+# Логи и служебный вывод
+*.log
+nohup.out

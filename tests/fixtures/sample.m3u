@@ -1,0 +1,10 @@
+#EXTM3U
+#PLAYLIST:Тестовый плейлист
+#EXTINF:222,Mira Vale - Неоновый дождь
+https://example.com/track/1
+#EXTINF:245,Neon Harbour - Midnight Drive
+https://example.com/track/2
+#EXTINF:198,Полярный круг - Северный ветер
+https://example.com/track/3
+#EXTINF:261,June & The Wolves - Falling Slowly
+https://example.com/track/4

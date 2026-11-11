@@ -1,0 +1,15 @@
+.venv
+__pycache__
+*.pyc
+data
+backups
+.git
+.github
+tests
+.env
+server.log
+README.md
+start.bat
+start.sh
+start-lan.bat
+start-lan.sh

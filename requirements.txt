@@ -1,0 +1,7 @@
+fastapi>=0.115
+uvicorn>=0.30
+ytmusicapi>=1.10
+spotipy>=2.24
+yandex-music>=3.2
+cryptography>=42
+qrcode>=7.4

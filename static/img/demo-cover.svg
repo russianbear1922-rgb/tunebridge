@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="600" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#241a4d"/>
+      <stop offset=".5" stop-color="#120f26"/>
+      <stop offset="1" stop-color="#080910"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientTransform="translate(402 196) rotate(90) scale(190)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb4d8"/>
+      <stop offset=".55" stop-color="#ff5f9e"/>
+      <stop offset="1" stop-color="#ff5f9e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="road" x1="300" y1="330" x2="300" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2a2352"/>
+      <stop offset="1" stop-color="#0a0a12"/>
+    </linearGradient>
+    <linearGradient id="line" x1="300" y1="340" x2="300" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd76b" stop-opacity="0"/>
+      <stop offset=".4" stop-color="#ffd76b"/>
+      <stop offset="1" stop-color="#ffd76b" stop-opacity=".2"/>
+    </linearGradient>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="402" cy="196" r="190" fill="url(#sun)" opacity=".85"/>
+  <circle cx="402" cy="196" r="74" fill="#ffd1e4" opacity=".92" filter="url(#blur)"/>
+  <g fill="#fff">
+    <circle cx="106" cy="92" r="2" opacity=".7"/>
+    <circle cx="164" cy="150" r="1.4" opacity=".5"/>
+    <circle cx="498" cy="88" r="1.8" opacity=".65"/>
+    <circle cx="540" cy="146" r="1.2" opacity=".45"/>
+    <circle cx="72" cy="210" r="1.5" opacity=".4"/>
+    <circle cx="238" cy="70" r="1.2" opacity=".6"/>
+  </g>
+  <path d="M0 356h600v244H0z" fill="url(#road)"/>
+  <path d="M300 340 128 600h344L300 340Z" fill="#0d0c18" opacity=".55"/>
+  <path d="M300 346v248" stroke="url(#line)" stroke-width="5" stroke-linecap="round"/>
+  <g stroke="#8b7cff" stroke-width="2" opacity=".45">
+    <path d="M300 350 190 600"/>
+    <path d="M300 350 410 600"/>
+  </g>
+  <g fill="#b8f36b">
+    <rect x="76" y="430" width="36" height="6" rx="3" opacity=".7"/>
+    <rect x="92" y="452" width="20" height="4" rx="2" opacity=".4"/>
+    <rect x="470" y="462" width="46" height="6" rx="3" opacity=".55"/>
+  </g>
+  <g fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" opacity=".7">
+    <path d="M58 300c26-10 40-28 50-52"/>
+    <path d="M490 300c-20-13-30-27-36-46"/>
+  </g>
+  <text x="52" y="70" fill="#ffffff" opacity=".92" font-family="Segoe UI, sans-serif" font-size="19" letter-spacing="4">TUNEBRIDGE</text>
+  <text x="52" y="530" fill="#ffffff" opacity=".95" font-family="Segoe UI, sans-serif" font-size="44" font-weight="700">Ночная</text>
+  <text x="52" y="574" fill="#ffffff" opacity=".95" font-family="Segoe UI, sans-serif" font-size="44" font-weight="700">поездка</text>
+  <text x="52" y="110" fill="#b8f36b" font-family="Segoe UI, sans-serif" font-size="15" letter-spacing="2">ДЕМО-ПЛЕЙЛИСТ</text>
+</svg>

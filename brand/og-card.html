@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>TuneBridge — og:image 1200×630</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1200px; height: 630px; }
+  body {
+    background: #07080e;
+    color: #f3f4fa;
+    font-family: "Inter", "Segoe UI Variable Display", "Segoe UI", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    overflow: hidden;
+  }
+  body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(760px 420px at 8% -10%, rgba(143, 125, 255, .34), transparent 62%),
+      radial-gradient(700px 420px at 100% 108%, rgba(62, 232, 210, .22), transparent 60%);
+  }
+  .grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(900px 520px at 30% 40%, #000 20%, transparent 78%);
+  }
+  .card {
+    position: relative;
+    height: 100%;
+    padding: 64px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .top { display: flex; align-items: center; gap: 22px; }
+  .mark { width: 84px; height: 84px; border-radius: 24px; box-shadow: 0 24px 60px -22px rgba(124, 92, 255, .9); }
+  .name { font-size: 58px; font-weight: 700; letter-spacing: -.03em; }
+  .tag {
+    margin-top: 26px;
+    font-size: 34px;
+    line-height: 1.32;
+    font-weight: 500;
+    letter-spacing: -.015em;
+    max-width: 900px;
+    color: #d7dae8;
+  }
+  .tag b {
+    font-weight: 700;
+    background: linear-gradient(115deg, #b79dff 0%, #8b74ff 42%, #43e6d2 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+  .chip {
+    padding: 11px 20px;
+    border: 1px solid rgba(255,255,255,.14);
+    border-radius: 999px;
+    background: rgba(255,255,255,.045);
+    font-size: 21px;
+    color: #c3c8da;
+    font-weight: 500;
+  }
+  .bottom { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+  .free {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 26px;
+    border-radius: 999px;
+    background: linear-gradient(115deg, rgba(184,243,107,.18), rgba(62,232,210,.16));
+    border: 1px solid rgba(184,243,107,.4);
+    color: #d8f7a8;
+    font-size: 24px;
+    font-weight: 650;
+  }
+  .dot { width: 12px; height: 12px; border-radius: 50%; background: #b8f36b; box-shadow: 0 0 18px #b8f36b; }
+  .note { font-size: 22px; color: #8b91a8; text-align: right; line-height: 1.4; }
+  .note b { color: #c3c8da; font-weight: 600; }
+</style>
+</head>
+<body>
+  <div class="grid"></div>
+  <div class="card">
+    <div>
+      <div class="top">
+        <img class="mark" src="../static/img/logo.svg" alt="">
+        <span class="name">TuneBridge</span>
+      </div>
+      <p class="tag">Перенос плейлистов между музыкальными сервисами — <b>с умным сопоставлением треков</b></p>
+      <div class="chips">
+        <span class="chip">Яндекс Музыка</span>
+        <span class="chip">Spotify</span>
+        <span class="chip">YouTube Music</span>
+        <span class="chip">SoundCloud</span>
+        <span class="chip">Apple Music</span>
+      </div>
+    </div>
+    <div class="bottom">
+      <span class="free"><span class="dot"></span>Бесплатно</span>
+      <span class="note"><b>Публичные плейлисты — по ссылке, без входа.</b><br>Работает в браузере, Telegram и как приложение</span>
+    </div>
+  </div>
+</body>
+</html>

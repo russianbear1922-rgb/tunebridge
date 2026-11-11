@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#08090f">
+  <meta name="description" content="TuneBridge — перенос плейлистов между Яндекс Музыкой, Spotify, YouTube Music, SoundCloud и Apple Music с умным сопоставлением треков.">
+  <title>TuneBridge — перенос плейлистов</title>
+  <link rel="canonical" href="/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TuneBridge">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="TuneBridge — перенос плейлистов">
+  <meta property="og:description" content="Перенос плейлистов между Яндекс Музыкой, Spotify, YouTube Music, SoundCloud и Apple Music. Публичные плейлисты — по ссылке, без входа. Бесплатно.">
+  <meta property="og:image" content="/static/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TuneBridge — перенос плейлистов">
+  <meta name="twitter:description" content="Перенос плейлистов между музыкальными сервисами с умным сопоставлением треков. Бесплатно.">
+  <meta name="twitter:image" content="/static/img/og-image.png">
+  <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="TuneBridge">
+  <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Навигация"></aside>
+    <main class="main">
+      <header class="topbar" id="topbar"></header>
+      <section class="screen" id="screen" aria-live="polite"></section>
+    </main>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toast-root" class="toast-root" aria-live="polite" aria-atomic="false"></div>
+  <noscript>
+    <div class="noscript">TuneBridge требует JavaScript. Включите его и обновите страницу.<br>TuneBridge requires JavaScript. Please enable it and reload the page.</div>
+  </noscript>
+  <!-- TELEGRAM_WEB_APP -->
+  <script type="module" src="/static/js/app.js"></script>
+</body>
+</html>
